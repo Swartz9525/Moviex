@@ -1,6 +1,6 @@
-# 🎬 Movix – Movie & TV Explorer  
+# 🎬 Moviex – Movie & TV Explorer  
 
-Welcome to **Movix**, a sleek and responsive **React.js application** for exploring movies and TV shows.  
+Welcome to **Moviex**, a sleek and responsive **React.js application** for exploring movies and TV shows.  
 It fetches real-time data from the **TMDB API** and presents it with a modern, user-friendly interface.  
 
 ---
@@ -31,7 +31,7 @@ Follow these steps to run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Swartz9525/movix.git
+git clone https://github.com/Swartz9525/moviex.git
 cd movix
 
 # Install dependencies
