@@ -32,7 +32,7 @@ Follow these steps to run the project locally:
 ```bash
 # Clone the repository
 git clone https://github.com/Swartz9525/moviex.git
-cd movix
+cd moviex
 
 # Install dependencies
 npm install
