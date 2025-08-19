@@ -1,0 +1,137 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 21rem;
+  padding-top: 4rem;
+}
+
+.container div {
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container-active {
+  border-bottom: 3px solid rgb(109, 109, 223);
+  font-weight: 900;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+form button {
+  background-color: rgb(109, 109, 223);
+  border-radius: 1.5rem;
+  border: none;
+  color: white;
+  padding: 10px 0;
+  font-weight: 900;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+form input {
+  padding: 13px 0;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+  border: 1.5px solid rgb(116, 116, 116);
+  padding-left: 1.5rem;
+}
+
+h4 {
+  text-align: center;
+  color: rgb(109, 109, 223);
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+h5 {
+  font-weight: 100;
+  color: rgb(190, 190, 190);
+  text-align: center;
+}
+
+#toggleLoginFormBtn {
+  background-color: white;
+  cursor: pointer;
+  border: none;
+}
+
+#toggleLoginFormBtn:hover {
+  font-weight: 600;
+}
+
+.home {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#logoutBtn {
+  height: 3rem;
+  width: 5rem;
+  background-color: rgb(109, 109, 223);
+  border-radius: 1.5rem;
+  border: none;
+  color: white;
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#logoutBtn:hover {
+  font-weight: 800;
+}
